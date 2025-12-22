@@ -1,0 +1,15 @@
+[tool.briefcase]
+project_name = "FeeApp"
+bundle = "com.example.feeapp"
+version = "0.0.1"
+url = "https://example.com"
+license = "BSD license"
+author = "Jane Developer"
+author_email = "jane@example.com"
+
+[tool.briefcase.app.feeapp]
+formal_name = "Fee App"
+description = "App for managing student fees"
+icon = "icon"
+sources = ["feeapp"]
+requires = ["kivy", "plyer"]
