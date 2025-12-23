@@ -7,3 +7,4 @@ dependencies:
   - kivy
   - plyer
   - azure-functions
+  - pytest
